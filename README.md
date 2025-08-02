@@ -3,6 +3,8 @@ Custom LLM built from scratch using sample dataset "orca-agentinstruct-1M-v1" fo
 
 **DATA GATHERING**
 - Found a Git page containning a list of sample data to use
-- Since we are using python, retrieved the data with : from datasets import load_dataset  ds = load_dataset("mlabonne/orca-agentinstruct-1M-v1-cleaned")
+- Since we are using python, retrieved the data with : from datasets import load_dataset
+                                                      ds = load_dataset("mlabonne/orca-agentinstruct-1M-v1-cleaned")
+  
 -Afterwards saved to a .jsonl file
 -Data is already cleaned but will include a cleaning procedure as this is good practice
