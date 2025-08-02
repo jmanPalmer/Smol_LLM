@@ -8,3 +8,7 @@ Custom LLM built from scratch using sample dataset "orca-agentinstruct-1M-v1" fo
   
 - Afterwards saved to a .jsonl file
 - Data is already cleaned but will include a cleaning procedure as this is good practice
+
+**TOKENIZATION**
+- The goal here is to convert human language into numbers or something readable for a machine as neural networks can only work with numbers
+- use re(regular expresions) library to split the texts up first 
